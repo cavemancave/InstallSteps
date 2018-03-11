@@ -1,3 +1,5 @@
+# 这篇文档用来记录我在使用Source Insight的过程中碰到的问题和解决方法或者一些技巧
+
 # Source Insight 支持lua
 
 1. 选择 Options > Preferences. 然后点击 Languages 标签。
