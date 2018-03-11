@@ -7,7 +7,7 @@
 1. 点击 Import 按钮，选择刚刚保存的 "lua.CLF" 文件，点击打开；此时，在左侧窗口的语言清单中，你就可以看到 lua了。
 1. Languages->Properties-> Custom Parsion 添加
 
-   | Function  |  function\w+\([a-zA-Z][a-zA-Z0-9_:]*\)  |
+   | Function  |  function\\w+\\([a-zA-Z][a-zA-Z0-9_:]*\\)  |
    |-----------|-----------------------------------------|
    
    （右方括号前的**下划线**和**冒号**非常重要，否则函数调用关系图可能有问题）（relation窗口中references by functions）
