@@ -1,4 +1,4 @@
-# sourceinsght支持lua
+# Source Insight 支持lua
 
 1. 选择 Options > Preferences. 然后点击 Languages 标签。
 1. 将附件中的 "lua Language.CLF" 文件保存到本地。
@@ -14,3 +14,5 @@
 1. 点击 Close 按钮关闭 Document Options 窗口，
 1. 然后点击 OK 关闭 *Preference *窗口。
 
+# Source Insight 4 中文注释乱码
+ Options->Preference->Files最后->Default encoding:选择GB2312
