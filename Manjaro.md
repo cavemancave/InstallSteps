@@ -43,3 +43,6 @@ systemctl enable NetworkManager-wait-online.service
 或
 systemctl enable systemd-networkd-wait-online.service
 
+## 安装algo
+
+
