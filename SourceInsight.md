@@ -20,6 +20,7 @@
 1. 然后点击 OK 关闭 *Preference *窗口。
 
 Lua->Properties->Comments and Ranges
+
 | Type | Delimiters | Style |
 |------|------------|-------|
 | line | -- | Comment Single Line |
