@@ -24,13 +24,10 @@ Lua->Properties->Comments and Ranges
 | Type | Delimiters | Style |
 |------|------------|-------|
 | line | -- | Comment Single Line |
-|------|------------|-------|
 | Multiline | ' ' | String |
-|------|------------|-------|
 | Multiline | " " | String |
-|------|------------|-------|
 | Multiline | --[[ ]] | Comment Multi Line |
-|------|------------|-------|
+
 
 
 
