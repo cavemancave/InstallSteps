@@ -61,3 +61,5 @@ sudo pacman-key --refresh-keys
 ```
 > If one fails, try the next then retry, and once all succeed retry the update.
 
+https://www.zhihu.com/question/32225726
+各类开放的API
