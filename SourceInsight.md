@@ -19,5 +19,19 @@
 1. 点击 Close 按钮关闭 Document Options 窗口，
 1. 然后点击 OK 关闭 *Preference *窗口。
 
+Lua->Properties->Comments and Ranges
+| Type | Delimiters | Style |
+|------|------------|-------|
+| line | -- | Comment Single Line |
+|------|------------|-------|
+| Multiline | ' ' | String |
+|------|------------|-------|
+| Multiline | " " | String |
+|------|------------|-------|
+| Multiline | --[[ ]] | Comment Multi Line |
+|------|------------|-------|
+
+
+
 # Source Insight 4 中文注释乱码
  Options->Preference->Files最后->Default encoding:选择GB2312
