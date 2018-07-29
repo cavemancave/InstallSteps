@@ -42,6 +42,8 @@ export XMODIFIERS=@im=fcitx
 systemctl enable NetworkManager-wait-online.service
 或
 systemctl enable systemd-networkd-wait-online.service
+## android 安装play store
+google search Google Installer APK
 
 ## 安装algo
 
