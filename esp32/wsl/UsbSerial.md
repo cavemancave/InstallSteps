@@ -19,3 +19,6 @@ cd /
 cd dev
 chown username ttyUSB0
 ```
+
+i shared at 
+https://www.instructables.com/ESP32-Development-on-Windows-Subsystem-for-Linux/
