@@ -7,6 +7,22 @@ Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz
 
 
 # 科学上网
+## mac pac
+1. 下载gfwlist.pac，不过safari需要的服务器地址是SOCKS，文件需要修改一下，把SOCKS, SOCKS5啥的都加上[1](https://photolens.tech/catalina-safari-proxy-automatic-configuration-pac-is-not-used/)
+```txt
+var proxy = 'SOCKS 127.0.0.1:1080;SOCK5 127.0.0.1:1080;SOCKS5 127.0.0.1:1080';
+```
+2. 安装shadowsocks-libev
+3. 新增一个shell脚本sslocalpac.sh，增加权限chmod +x sslocalpac.sh，需要代理时就执行脚本
+```bash
+cd /Users/zhenni/Downloads/
+python3 -m http.server 8080 & 
+ss-local -s proxy.server.com -p 1080  -l 1080 -k password  -m chacha20-ietf-poly1305 &
+```
+4. 代理-》自动代理配置-》”http://localhost:8080/gfwlist.pac“，忽略这些主机的代理设置 '*.local、169.254/16、192.168/16'
+5. 
+
+
 ## goagent
 参考陈皓-左耳朵耗子-[科学上网](https://github.com/haoel/haoel.github.io)  
 210620Test on banwagonHost  
