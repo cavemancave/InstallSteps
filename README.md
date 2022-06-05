@@ -20,7 +20,13 @@ python3 -m http.server 8080 &
 ss-local -s proxy.server.com -p 1080  -l 1080 -k password  -m chacha20-ietf-poly1305 &
 ```
 4. 代理-》自动代理配置-》”http://localhost:8080/gfwlist.pac“，忽略这些主机的代理设置 '*.local、169.254/16、192.168/16'
-5. 
+5. Git using Proxy [fearblackcat/proxy_for_terminal.md](https://gist.github.com/fearblackcat/850c6e027d5a03017c44daaa6a7ffc30)
+```bash
+git config --global http.proxy 'socks5://127.0.0.1:1080'
+git config --global https.proxy 'socks5://127.0.0.1:1080'
+git config --global core.gitproxy 'socks5://127.0.0.1:1080'
+# git clone #http* can work , ssh haven't configure
+```
 
 
 ## goagent
