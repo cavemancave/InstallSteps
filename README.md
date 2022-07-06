@@ -50,3 +50,7 @@ chmod +x install.ubuntu.18.04.sh
 [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
 4. godaddy edit dns to new host
 5. Install reset steps, 
+
+## squid https server 
+参考 [cooolin-Squid极简搭建HTTP/HTTPS代理服务器](http://cooolin.com/scinet/2020/06/21/squid-proxy-simple.html)
+
