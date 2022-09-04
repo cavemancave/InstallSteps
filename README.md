@@ -1,12 +1,26 @@
 # InstallSteps
 Record various OS install and use steps
 
-My laptop :
-Lenovo Z470
-Intel(R) Core(TM) i3-2310M CPU @ 2.10GHz
-
-
 # 科学上网
+## trojan
+[github.com-Alvin9999/new-pac-自建trojan服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAtrojan%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B)  
+2022-09-04 test successed on ubuntu 22.04  
+
+## goagent
+参考陈皓-左耳朵耗子-[科学上网](https://github.com/haoel/haoel.github.io)  
+1. Download script and install
+```bash
+wget https://raw.githubusercontent.com/haoel/haoel.github.io/master/scripts/install.ubuntu.18.04.sh
+chmod +x install.ubuntu.18.04.sh
+./install.ubuntu.18.04.sh
+```
+3. Install docker-ce failed. Manua Install
+[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
+4. godaddy edit dns to new host
+5. Install reset steps, 
+
+## rabbitpro.org
+
 ## mac pac
 1. 下载gfwlist.pac，不过safari需要的服务器地址是SOCKS，文件需要修改一下，把SOCKS, SOCKS5啥的都加上[1](https://photolens.tech/catalina-safari-proxy-automatic-configuration-pac-is-not-used/)
 ```txt
@@ -27,30 +41,3 @@ git config --global https.proxy 'socks5://127.0.0.1:1080'
 git config --global core.gitproxy 'socks5://127.0.0.1:1080'
 # git clone #http* can work , ssh haven't configure
 ```
-
-
-## goagent
-参考陈皓-左耳朵耗子-[科学上网](https://github.com/haoel/haoel.github.io)  
-210620Test on banwagonHost  
-1. Configure VM passwd 
-```bash
-passwd root
-sudo apt upgrade 
-reboot
-ssh-copy-id -p $PORT root@$IP
-ssh -p $PORT root@$IP
-```
-2. Download script and install
-```bash
-wget https://raw.githubusercontent.com/haoel/haoel.github.io/master/scripts/install.ubuntu.18.04.sh
-chmod +x install.ubuntu.18.04.sh
-./install.ubuntu.18.04.sh
-```
-3. Install docker-ce failed. Manua Install
-[Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/ubuntu/)
-4. godaddy edit dns to new host
-5. Install reset steps, 
-
-## squid https server 
-参考 [cooolin-Squid极简搭建HTTP/HTTPS代理服务器](http://cooolin.com/scinet/2020/06/21/squid-proxy-simple.html)
-
